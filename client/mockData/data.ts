@@ -1,4 +1,6 @@
-export const mockProducts = [
+import {Product} from '../src/models/index'
+
+export const mockProducts: Product[] = [
   {
     _id: "1",
     title: "Amazon Kindle E-reader",
@@ -25,7 +27,7 @@ export const mockProducts = [
   },
 ];
 
-export const mockCart = [
+export const mockCart: Product[] = [
   {
     _id: "1",
     title: "Amazon Kindle E-reader",

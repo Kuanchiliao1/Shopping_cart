@@ -200,3 +200,7 @@ table td.total {
   text-align: right;
   padding-top: 20px;
 }
+
+button {
+  color: black;
+}
